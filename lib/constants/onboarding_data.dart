@@ -9,14 +9,14 @@ class OnboardingData {
 final List<OnboardingData> onboardingData = [
   OnboardingData(
     title: "Trusted by millions of people, part of one \n part",
-    imagePath: "assets/onboarding_img_1.png",
+    imagePath: "assets/onboarding_img_1.svg",
   ),
   OnboardingData(
     title: "Spend money abroad, and track your expense",
-    imagePath: "assets/onboarding_img_2.png",
+    imagePath: "assets/onboarding_img_2.svg",
   ),
   OnboardingData(
     title: "Receive Money From Anywhere In The World",
-    imagePath: "assets/onboarding_img_3.png",
+    imagePath: "assets/onboarding_img_3.svg",
   ),
 ];
