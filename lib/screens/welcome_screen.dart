@@ -1,3 +1,5 @@
+import 'package:coinpay_app/screens/auth/login_screen.dart';
+import 'package:coinpay_app/screens/auth/register_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -85,6 +87,10 @@ class WelcomeScreen extends StatelessWidget {
                 filled: true,
                 onPressed: () {
                   // Handle Sign up action
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => RegisterScreen()),
+                  );
                 },
               ),
               const SizedBox(height: 16),
@@ -92,7 +98,10 @@ class WelcomeScreen extends StatelessWidget {
                 label: "Log in",
                 filled: false,
                 onPressed: () {
-                  // Handle Log in action
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LoginScreen()),
+                  );
                 },
               ),
             ],
